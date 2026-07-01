@@ -37,11 +37,21 @@ main {
   gap: 10px;
 }
 .desp {
-  padding: 1.3rem;
+  padding: 1rem;
+  min-width: 300px;
   background-color: royalblue;
   color: white;
   border-radius: 10px;
   cursor: pointer;
+}
+.despPrice {
+  font-size: 2rem;
+}
+.jlinka {
+  padding: 10px 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: black;
 }
 .linkdesp {
   text-decoration: none;

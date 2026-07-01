@@ -155,20 +155,25 @@ export default function Home() {
         <main>
           <div className="mainDasContainer">
             <div className="desBoxa">
-              <p className="desp">
-                Total Inventory Valuation: ₹
-                {totalValuation.toLocaleString("en-IN")}
-              </p>
-              <p className="desp">Low Stock Alerts: {lowStockCount} Items</p>
+              <div className="desp">
+                <p>Total Inventory Valuation</p>
+                <p className="despPrice">
+                  ₹{totalValuation.toLocaleString("en-IN")}
+                </p>
+              </div>
+              <div className="desp">
+                <p>Low Stock Alerts</p>
+                <p className="despPrice">{lowStockCount} Items</p>
+              </div>
             </div>
             <div className="desBoxa">
-              <p className="desp">
+              <p className="jlinka">
                 <Link className="linkdesp" to="/additems">
                   Add Item
                 </Link>
               </p>
 
-              <p className="desp">
+              <p className="jlinka">
                 <Link className="linkdesp" to="/artificialintelligence">
                   Artificial Intelligence
                 </Link>
